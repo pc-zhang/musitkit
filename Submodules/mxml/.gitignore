@@ -1,0 +1,18 @@
+build/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+Testing
+CTestTestfile.cmake
+install_manifest.txt
+
+# Xcode per-user config
+*.mode1
+*.mode1v3
+*.mode2v3
+*.pbxuser
+xcuserdata/
+*.xccheckout
