@@ -128,10 +128,12 @@ std::unique_ptr<mxml::dom::Score> loadXML(NSString* filePath) {
     _conductor = [[Conductor alloc] init];
     for (auto& event : events->events()) {
         if(event.onNotes().size() == 0) continue;
+//        double x = (event.onNotes().front()->midiNumber() - 69)/12.0;
+//        double y = 440 * pow(2, x);
         [_conductor addWithNoteNumber:event.onNotes().front()->midiNumber() position:event.wallTime() duration:event.wallTimeDuration()];
         
     }
-    [_conductor play];
+//    [_conductor play];
 }
 
 - (void)didReceiveMemoryWarning {

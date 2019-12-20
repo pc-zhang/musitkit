@@ -978,12 +978,12 @@
 		A9E5EBC01DAF47A800ACE913 /* VMKTieLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 616C1ABC1A0B054C0020EAA8 /* VMKTieLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9E5EBC11DAF47A800ACE913 /* VMKTimeSignatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 616C1AC01A0B06280020EAA8 /* VMKTimeSignatureLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9E5EBC21DAF47A800ACE913 /* VMKWedgeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 616C1AC41A0BFE2C0020EAA8 /* VMKWedgeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F039FCAB23A7B11C00CE821B /* Game_of_Thrones_Easy_piano.mxl in Resources */ = {isa = PBXBuildFile; fileRef = F039FCAA23A7B11C00CE821B /* Game_of_Thrones_Easy_piano.mxl */; };
 		F06B7BB12358ACEE007E5ACF /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06B7BAF2358ACE1007E5ACF /* AudioKitUI.framework */; };
 		F06B7BB22358ACEF007E5ACF /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06B7BB02358ACEE007E5ACF /* AudioKit.framework */; };
 		F06B7BB62358AD8A007E5ACF /* Conductor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B7BB52358AD8A007E5ACF /* Conductor.swift */; };
 		F06B7BB82358BC24007E5ACF /* FM Piano.wav in Resources */ = {isa = PBXBuildFile; fileRef = F06B7BB72358BC23007E5ACF /* FM Piano.wav */; };
 		F06B7BBA2358BC39007E5ACF /* Bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = F06B7BB92358BC39007E5ACF /* Bell.wav */; };
-		F0B9F43B2354AD830054B731 /* Game_of_Thrones_Easy_piano.mxl in Resources */ = {isa = PBXBuildFile; fileRef = F0B9F43A2354AD830054B731 /* Game_of_Thrones_Easy_piano.mxl */; };
 		F0B9F43D2354B22E0054B731 /* VMKScoreRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 61D667801A3F67B80044A00B /* VMKScoreRenderer.mm */; };
 /* End PBXBuildFile section */
 
@@ -1797,6 +1797,7 @@
 		8CF686971AFB28AA00D112B8 /* OrnamentLayer-TrillBelow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrnamentLayer-TrillBelow@3x.png"; sourceTree = "<group>"; };
 		A2539A58EA33DE1E68964E4C /* Pods-MusicKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicKitApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicKitApp/Pods-MusicKitApp.release.xcconfig"; sourceTree = "<group>"; };
 		B7F2A696499F6A468BE58C76 /* Pods-MusicKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicKitApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicKitApp/Pods-MusicKitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F039FCAA23A7B11C00CE821B /* Game_of_Thrones_Easy_piano.mxl */ = {isa = PBXFileReference; lastKnownFileType = file; path = Game_of_Thrones_Easy_piano.mxl; sourceTree = "<group>"; };
 		F06B7BA32358A827007E5ACF /* MusicKitApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MusicKitApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		F06B7BAF2358ACE1007E5ACF /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKitUI.framework; sourceTree = "<group>"; };
 		F06B7BB02358ACEE007E5ACF /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
@@ -1804,7 +1805,6 @@
 		F06B7BB72358BC23007E5ACF /* FM Piano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "FM Piano.wav"; sourceTree = "<group>"; };
 		F06B7BB92358BC39007E5ACF /* Bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bell.wav; sourceTree = "<group>"; };
 		F0B9F4392354A84A0054B731 /* MusicKitApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusicKitApp.entitlements; sourceTree = "<group>"; };
-		F0B9F43A2354AD830054B731 /* Game_of_Thrones_Easy_piano.mxl */ = {isa = PBXFileReference; lastKnownFileType = file; name = Game_of_Thrones_Easy_piano.mxl; path = ../../../../Downloads/Game_of_Thrones_Easy_piano.mxl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2705,10 +2705,10 @@
 			isa = PBXGroup;
 			children = (
 				F06B7BB72358BC23007E5ACF /* FM Piano.wav */,
+				F039FCAA23A7B11C00CE821B /* Game_of_Thrones_Easy_piano.mxl */,
 				F06B7BB92358BC39007E5ACF /* Bell.wav */,
 				614CA7831CE64666009F1E20 /* Info.plist */,
 				614CA7841CE64666009F1E20 /* Symbols.xcassets */,
-				F0B9F43A2354AD830054B731 /* Game_of_Thrones_Easy_piano.mxl */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -3120,10 +3120,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0B9F43B2354AD830054B731 /* Game_of_Thrones_Easy_piano.mxl in Resources */,
 				610DC5AF1A0831DF00BEEBFD /* Main.storyboard in Resources */,
 				F06B7BB82358BC24007E5ACF /* FM Piano.wav in Resources */,
 				359A4F0D2284F62B008E930E /* Symbols.xcassets in Resources */,
+				F039FCAB23A7B11C00CE821B /* Game_of_Thrones_Easy_piano.mxl in Resources */,
 				610DC67E1A08342900BEEBFD /* Media.xcassets in Resources */,
 				610DC5B41A0831DF00BEEBFD /* LaunchScreen.xib in Resources */,
 				F06B7BBA2358BC39007E5ACF /* Bell.wav in Resources */,
@@ -4450,6 +4450,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5K87F3JL7S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -4476,6 +4477,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5K87F3JL7S;
 				DYLIB_COMPATIBILITY_VERSION = 1;
